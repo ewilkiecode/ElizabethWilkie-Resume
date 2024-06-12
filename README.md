@@ -4,40 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ewilkie Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Elizabeth Wilkie</h1> 
-    <h3>Network Maintenance Technician and Senior Support Agent</h3>
-    <a href="about.html">About Me</a> <a href="https://www.linkedin.com/in/elizabeth-wilkie-29ab32176">LinkedIn</a> <a href="contact.html">Contact Me</a><br>
-    <img src="Me.jpg" width="100" alt="Selfie of Elizabeth">
-    <hr>
-    <h3><strong>Professional Summary</strong></h3>
-    <p>Experienced IT professional with a solid foundation in networking, transitioning into web development. Skilled in managing and optimizing network infrastructure, troubleshooting, and ensuring secure, high-performance systems. Proficient in HTML, CSS, JavaScript, and modern web frameworks, with hands-on experience in creating responsive, user-friendly web applications. Demonstrates strong analytical skills, attention to detail, and a commitment to continuous learning. Ready to leverage technical expertise and problem-solving abilities to deliver innovative web solutions and contribute to a dynamic development team.</p>
-
-    <hr>
-
-    <h3 align="center"><strong>Professional Skills</strong></h3>
+    <div>
+    <header>
+        <h1>Elizabeth Wilkie</h1> 
+        <h3>Network Maintenance Technician and Senior Support Agent</h3>
+    </header>
+    </div>
+<div class="main-container">
     
-    <table border="frame" width="700" align="center" >
-        <tr align="center">
-            <td>HTML, CSS, JavaScript</td>
-            <td>Effective Communication</td>
-            <td>Problem-Solving</td>
-        </tr>
-        <tr align="center">
-            <td>Team Collaboration</td>
-            <td>Time Management</td>
-            <td>Attention to Detail</td>
-        </tr>
-        <tr align="center">
-            <td>Adaptability</td>
-            <td>Creativity</td>
-            <td>Critical Thinking</td>
-        </tr>
-    </table>
-    <hr>
-    <h3><strong>Professional Experience</strong></h3>
+        <p><strong class="heading">Professional Summary</strong><br>IT professional with a solid foundation in networking, transitioning into web development. Skilled in managing and optimizing network infrastructure, troubleshooting, and ensuring secure, high-performance systems. Proficient in HTML, CSS, JavaScript, and modern web frameworks, with hands-on experience in creating responsive, user-friendly web applications. Demonstrates strong analytical skills, attention to detail, and a commitment to continuous learning. Ready to leverage technical expertise and problem-solving abilities to deliver innovative web solutions and contribute to a dynamic development team.</p>
+</div>
 
+    <div class="container">
+        <h3 class="heading">Professional Skills</h3>
+        <p class="skill">HTML, CSS, JavaScript</p>
+        <p class="skill">Effective Communication</p>
+        <p class="skill">Problem-Solving</p>
+        <p class="skill">Team Collaboration</p>
+        <p class="skill">Time Management</p>
+        <p class="skill">Attention to Detail</p>
+        <p class="skill">Adaptability</p>
+        <p class="skill">Creativity</p>
+        <p class="skill">Critical Thinking</p>
+    </div>
+
+    <div class="experience">
+    <h3><strong>Professional Experience</strong></h3>
     <h4>STS Network Maintenance Technician | Nextlink Internet | Feb 2023-Current</h4>
         <ul>
             <li>Performed regular maintenance and troubleshooting of network infrastructure, reducing downtime by 25% and ensuring optimal performance.</li>
@@ -63,7 +58,7 @@
             <li>Provided outstanding customer service, handling inquiries and resolving delivery issues promptly, contributing to a 20% increase in customer satisfaction ratings.</li>
         </ul>
 
-    <hr>
+    </div>
 
     <h4><strong>Certifications</strong></h4>
         <p>CBRS - Certified Professional Installer<br>
